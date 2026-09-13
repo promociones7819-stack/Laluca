@@ -1,0 +1,1 @@
+Cloudflare Workers debe publicar únicamente la carpeta `public/`. El fichero `wrangler.jsonc` usa el Worker `laluca` y evita incluir `node_modules` como assets.
